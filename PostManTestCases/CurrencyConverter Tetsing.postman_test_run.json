@@ -1,0 +1,70 @@
+{
+	"id": "1f56abda-0080-49c5-91f6-66d782132291",
+	"name": "CurrencyConverter Tetsing",
+	"timestamp": "2023-06-27T19:55:45.164Z",
+	"collection_id": "28138241-798f4b0e-5cc7-4de3-925b-4dcfd1d81f33",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": "1",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-27T19:55:41.414Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1a199519-536d-4480-a142-314ff6721016",
+			"name": "Fetching Curruncies Data",
+			"url": "https://v6.exchangerate-api.com/v6/0d950d2038943b4df4f1da80/pair/EUR/GBP",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				504,
+				169
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "c06569ca-89a2-4860-8a78-96542f5be4ef",
+			"name": "MockDatabsae",
+			"url": "https://956f960b-ea6a-4a8f-8e43-362a36678184.mock.pstmn.io",
+			"time": 315,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				969,
+				315
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 1957,
+	"collection": {
+		"requests": [
+			{
+				"id": "1a199519-536d-4480-a142-314ff6721016",
+				"method": "GET"
+			},
+			{
+				"id": "c06569ca-89a2-4860-8a78-96542f5be4ef",
+				"method": "GET"
+			}
+		]
+	}
+}
